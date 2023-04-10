@@ -5,6 +5,10 @@
   background-color: cadetblue;
 }
 
+h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
+}
+
 .okvir{
 
   display: flex;
