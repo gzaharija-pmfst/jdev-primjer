@@ -1,10 +1,40 @@
-#root {
-  max-width: 1280px;
+.App {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: cadetblue;
 }
 
-h1{
-  text-decoration: underline;
+.okvir{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.okvir div {
+  border-radius: 15px;
+  margin-top: 10px;
+  color: goldenrod;
+  background-color: midnightblue;
+  width: 40%;
+  padding: 5px 3%;
+}
+
+.astronaut{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.astronaut p{
+  display: flex;
+  flex-direction: column;
+}
+
+.ime{
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: large;
+  color: gold;
 }
