@@ -15,7 +15,7 @@ function App() {
  
   return (
     <div className='App'>
-      <h1>Astronauti u svemiru</h1>
+      <h1>Astronauti u svemiru!</h1>
       <button onClick={dohvatiPodatke}>Dohvati podatke</button>
       <div className="okvir">
         {ljudi.map(el => (
